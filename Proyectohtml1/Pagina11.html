@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Metodo de Pago</title>
+  <link rel="stylesheet" href="Estilos/estilos1.css">
+  <link rel="stylesheet" href="Estilos/estilo6.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="Estilos/Nosotros.css" />
+  <link rel="stylesheet" href="Estilos/estilos8.css" />
+</head>
+<body>
+  <header>
+    <div class="redes-sociales">
+      <a href="https://twitter.com" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+      <a href="https://facebook.com" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://instagram.com" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+    </div>
+    <h1>Métodos de Pago</h1>
+<div class="menu-toggle" id="menu-toggle">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+
+<nav id="menu" class="menu">
+  <ul>
+    <li><a href="index.html">inicio</a></li>
+    <li><a href="Pagina2.html">Catálogo de Ropa</a></li>
+    <li><a href="Pagina3.html">Contacto</a></li>
+    <li><a href="Pagina4.html">Reclamos</a></li>
+    <li><a href="Pagina5.html">Multimedia</a></li>
+    <li><a href="Pagina6.html">Temporadas</a></li>
+    <li><a href="Pagina7.html">Ubícanos</a></li>
+    <li><a href="Pagina8.html">Nosotros</a></li>
+    <li><a href="Pagina9.html">Venta</a></li>
+    <li><a href="Pagina10.html">Calcula tu Talla</a></li>
+    <li><a href="Pagina11.html">Método de Pago</a></li>
+    <li><a href="Pagina12.html">Testimonios</a></li>
+  </ul>
+</nav>
+
+  </header>
+
+  <section class="payment-container">
+  <h2>Selecciona tu método de pago:</h2>
+  <div class="payment-option-container">
+    <div class="payment-option" onclick="showForm('visa')">Visa</div>
+    <div class="payment-option" onclick="showForm('mastercard')">Mastercard</div>
+    <div class="payment-option" onclick="showForm('paypal')">PayPal</div>
+  </div>
+
+  <div id="visa-form" class="payment-form">
+    <h3>Formulario Visa</h3>
+    <input type="text" placeholder="Número de tarjeta" />
+    <input type="text" placeholder="Fecha de vencimiento (MM/AA)" />
+    <input type="text" placeholder="Código de seguridad (CVV)" />
+    <button type="submit">Guardar Visa</button>
+  </div>
+
+  <div id="mastercard-form" class="payment-form">
+    <h3>Formulario Mastercard</h3>
+    <input type="text" placeholder="Número de tarjeta" />
+    <input type="text" placeholder="Fecha de vencimiento (MM/AA)" />
+    <input type="text" placeholder="Código de seguridad (CVV)" />
+    <button type="submit">Guardar Mastercard</button>
+  </div>
+
+  <div id="paypal-form" class="payment-form">
+    <h3>Formulario PayPal</h3>
+    <input type="email" placeholder="Correo electrónico de PayPal" />
+    <input type="password" placeholder="Contraseña" />
+    <button type="submit">Guardar Paypal</button>
+  </div>
+</section>
+
+
+  <footer>
+    <p>© 2025 ModaEstilo. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="JavaScript/java4.js"></script>
+<script src="JavaScript/java00.js"></script>
+
+</body>
+</html>

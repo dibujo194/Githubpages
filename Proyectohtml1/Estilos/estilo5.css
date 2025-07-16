@@ -1,0 +1,57 @@
+body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .carousel {
+      position: relative;
+      max-width: 400px;
+      margin: auto;
+    }
+
+    .slides {
+      display: flex;
+      overflow: hidden;
+      border-radius: 15px;
+    }
+
+    .slide {
+      min-width: 100%;
+      transition: 0.5s;
+      display: none;
+    }
+
+    input[type="radio"] {
+      display: none;
+    }
+
+    #slide1:checked ~ .slides .s1,
+    #slide2:checked ~ .slides .s2 {
+      display: block;
+    }
+
+    .slides img {
+      width: 100%;
+      height: auto;
+      border-radius: 15px;
+    }
+
+    .navigation-manual {
+      margin-top: 10px;
+    }
+
+    .navigation-manual label {
+      cursor: pointer;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+      border-radius: 5px;
+      margin: 0 5px;
+      transition: background 0.3s;
+    }
+
+    .navigation-manual label:hover {
+      background-color: black;
+    }

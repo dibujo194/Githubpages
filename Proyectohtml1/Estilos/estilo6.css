@@ -1,0 +1,72 @@
+.footer-modaestilo {
+  background-color: #000;
+  color: #fff;
+  padding: 40px 20px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-col h3 {
+  font-size: 1.1em;
+  margin-bottom: 15px;
+  color: #ffd700;
+}
+
+.footer-col p, .footer-col li, .footer-col a {
+  font-size: 0.95em;
+  color: #ddd;
+  text-decoration: none;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.footer-col a:hover {
+  color: #ffd700;
+}
+
+.footer-copy {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 0.9em;
+  color: #aaa;
+  border-top: 1px solid #444;
+  margin-top: 30px;
+}
+.sugerencias-container {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  padding: 10px 0;
+}
+
+.sugerencia-card {
+  min-width: 160px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.sugerencia-card img {
+  max-width: 120px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.sugerencia-card button {
+  margin-top: 8px;
+  padding: 6px 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

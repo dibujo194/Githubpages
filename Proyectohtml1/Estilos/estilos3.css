@@ -1,0 +1,138 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f4f4;
+    color: #070606;
+  }
+  
+  header {
+    background-color: #0a0a0a;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 80px;
+    height: auto;
+    margin-bottom: 0.5rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 1rem;
+  }
+  
+  .formulario-contacto {
+    background-color: #f3ebeb;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #050505;
+    border-radius: 5px;
+    background-color: #f7f1f1;
+    color: #000;
+  }
+  
+  input::placeholder,
+  textarea::placeholder {
+    color: #aaa;
+    font-style: italic;
+  }
+  
+  input[type="submit"] {
+    background-color: #020202;
+    color: white;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #050505;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1.5rem 1rem;
+    background-color: #111;
+    color: white;
+    margin-top: 2rem;
+  }
+  
+  .redes {
+    margin-bottom: 1rem;
+  }
+  
+  .redes a img {
+    width: 32px;
+    margin: 0 10px;
+    vertical-align: middle;
+    transition: transform 0.3s ease;
+  }
+  
+  .redes a img:hover {
+    transform: scale(1.2);
+  }
+  
+  @media (max-width: 600px) {
+    .formulario-contacto {
+      padding: 1rem;
+    }
+  
+    .logo {
+      width: 60px;
+    }
+  
+    .redes a img {
+      width: 28px;
+      margin: 0 6px;
+    }
+  }
